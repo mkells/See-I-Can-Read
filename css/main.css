@@ -13,15 +13,20 @@ header {
 
 #name {
   font-size: 85px;
-  padding: 3%;
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0;
 }
 
 #nav-top {
   display: flex;
   justify-content: center;
   align-items: stretch;
-  padding-top: 10%;
-  font-size: 40px;
+  padding-top: 6%;
+  padding-right: 2%;
+  font-size: 60px;
 }
 
 /*** Nav Bar ***/
@@ -52,11 +57,12 @@ body {
 }
 
 #book {
-  height: 800px;
-  width: auto;
+  height:auto;
+  width: 100%;
   display: flex;
   align-content: center;
-  padding-bottom: 3%
+  justify-content: center;
+  padding-bottom: 1%;
 }
 
 #info {
@@ -65,6 +71,17 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+#logo {
+	height: 200px;
+	width: 125px;
+}
+
+.col-md-12 {
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+
 .container-fluid {
   padding-left: 10%;
   padding-right: 10%;
@@ -82,27 +99,19 @@ footer {
   padding-right: 20px;
 }
 
-.btn {
-  height: 50;
-  width: 200;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: black;
-  margin-top: 30%;
+#orderbtn {
+	height: 100%;
+	width: auto;
+	color: black;
+	padding-top: 3%;
+	margin-top: 6%;
+	font-size: 20px;
 }
 
 #social {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 3%
+font-size: 25px;
 }
 
-#nav {
-  display: flex;
-  align-items: center;
-}
 /***   Social Media Buttons ***/
 .fa {
   padding: 20px;
