@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
   <!-- CSS -->
-  <link href="main.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
 
   <!-- Add icon library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -42,18 +42,19 @@
   <main>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-12">
-          <img id="book" src="images/seeicanreadmainhome.jpg" alt="image of series">
+        <div class="col-md-12 center-block text-center">
+          <img id="book"  src="images/seeicanreadmainhome.jpg" alt="image of series">
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-5">
+        <div class="col-md-5 center-block text-center">
           <p id="info">A wonderful board covered book designed to help young children
                        get a head start in reading concepts. </br> Buy your 5-volume set today
                        for the young person in your life.</p>
+		  <img id="logo" src="images/seeicanreadlogo.png" alt="logo">
         </div>
-        <div class="col-md-7">
+        <div class="col-md-7 center-block text-center">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/wkuTXVBtXQM" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
@@ -62,12 +63,12 @@
       <!-- CAROUSEL -->
       <div class="row">
         <div class="col-md-12">
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <div id="carousel-sicr" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-	            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+              <li data-target="#carousel-sicr" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-sicr" data-slide-to="1"></li>
+              <li data-target="#carousel-sicr" data-slide-to="2"></li>
+	            <li data-target="#carousel-sicr" data-slide-to="3"></li>
             </ol>
           <div class="carousel-inner" role="listbox">
             <div class="item active">
@@ -86,11 +87,11 @@
               <img class="img-responsive center-block" height="500" width="1140" src="images/seeicanreadmainhome.jpg" alt="Third slide">
             </div>
           </div>
-          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <a class="left carousel-control" href="#carousel-sicr" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
-          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <a class="right carousel-control" href="#carousel-sicr" role="button" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
@@ -102,7 +103,7 @@
 <footer>
   <div class="container-fluid">
   <div class="row">
-    <div class="col-md-6"
+    <div class="col-md-6 center-block">
       <section id="nav">
         <nav class="nav flex-column" "flex-sm-column">
             <a class="nav-link" href="">Home</a>
@@ -111,15 +112,15 @@
             <a class="nav-link" href="">Links</a>
             <a class="nav-link" href="">About Us</a>
             <a class="nav-link" href="">Contact</a>
-            <a class="nav-link" href="">Donations&Orders</a>
+            <a class="nav-link" href="">Donations</a>
         </nav>
       </section>
     </div>
-    <div class="col-md-2">
-      <button type="button" class="btn btn-light" onclick="location.href='order.html';">Order Now!</button>
+    <div class="col-md-2" id="order">
+      <button id="orderbtn" type="button" class="btn btn-light" onclick="location.href='order.html';">Order Now!</button>
     </div>
-    <div class="col-md-4" id="social">
-      <p id="">Check us out on social media!
+    <div class="col-md-4">
+      <p id="social">Check us out on social media!
           <a href="#" class="fa fa-facebook"></a>
           <a href="#" class="fa fa-youtube"></a>
       </p>
