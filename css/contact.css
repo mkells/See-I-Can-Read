@@ -1,0 +1,62 @@
+
+/******************************* Main Body ********************************/
+#pgtitle {
+  font-size: 75px;
+}
+
+#sicrinfo {
+  font-size: 20px;
+}
+/******************************* Contact Form ********************************/
+#formTitle {
+  align-items: center;
+}
+
+form label {
+  font-size: 22px;
+}
+
+#name, #email, #phone, #message {
+  width:40%;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 2%;
+  border: 2px solid gray;
+}
+
+#contactSubmit {
+  border-radius: 10px;
+  border: 2px solid gray;
+  width: 5%;
+  height: 30px;
+  margin-bottom: 1%;
+}
+
+/********************************* Jumbotron *********************************/
+#jumboTitle {
+  font-size: 40px;
+}
+
+#jumboPara {
+  font-size: 25px;
+}
+.form-inline {
+  margin-bottom: 2%;
+}
+.form-inline label {
+  margin-right: 1%;
+  font-size: 20px;
+}
+
+.form-inline input {
+  margin-right: 2%;
+  border-radius: 10px;
+  border: 2px solid gray;
+  height: 30px;
+  width: 200px;
+}
+
+#submit {
+  border-radius: 10px;
+  border: 2px solid gray;
+}
