@@ -1,0 +1,50 @@
+#cover {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+}
+
+.contiainer_div {
+  margin: 0 auto;
+  width: 70%;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+label{
+  font-size: 18px;
+}
+
+select {
+  border-radius: 5px;
+  margin-left: 1%;
+  border: 1px solid black;
+}
+#nameText, #emailText, #phoneText, #cardText, #cvvText, #addressSt,
+ #addressState {
+  height: 25px;
+  width: 250px;
+  margin-bottom: 3%;
+}
+
+#zip {
+  height: 25px;
+  width: 75px;
+}
+
+#notesText {
+  height: 100px;
+  width: 600px;
+}
+
+#submit {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 35px;
+  width: 75px;
+  font-size: 16px;
+  font-weight: boldjjj;
+}

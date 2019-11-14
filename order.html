@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>
+    See, I Can Read
+  </title>
+
+  <!-- Bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/orders.css">
+
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+      <div class="row">
+        <div class="col-md-7">
+          <h1 id="SICRName">See, I Can Read</h1>
+        </div>
+        <div class="col-md-5">
+          <section id="nav-top">
+          <div class="collapse navbar-collapse" "mr-auto" id="navbarNavAltMarkup">
+            <a class="nav-link" href="books.html">Books</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </div>
+        </section>
+        </div>
+      </div>
+  </header>
+
+  <main>
+    <div class="container-fluid">
+      <div class=row>
+        <div class="col-md-6 center-block text-center">
+          <img id="cover" src="images/seeicanreadmainhome.jpg" alt="see i can read cover">
+        </div>
+        <div class="col-md-6 center-block text-center">
+          <h2 id="testHeader">Testimonials</h2>
+          <p id="testimonial">"Lorem ipsum dolor sit amet, at vix quas novum, id populo vocibus usu.
+            Vim in elit accusata patrioque, vim omnes tempor postea et." </br></br> "Solum platonem persecuti cu per, duo ne alia debitis oportere. At putent disputationi quo.
+            Ut elitr soluta pericula cum, sed no essent posidonium, usu congue persius in. Saepe officiis vis ex, et assum ornatus quaerendum nec."</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12center-block text-center">
+          <h2>Order Below!</h2>
+        </div>
+      </div>
+
+      <div class="container">
+      <form action="">
+        <div class="form-group row">
+          <label for="name" class="col-md-5 col-sm-2 col-form-label text-right">Name</label>
+          <div class="col-md-7 col-sm-10 text-left">
+            <input type="text" id="nameText"></input>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="email" class="col-md-5 col-sm-2 col-form-label text-right">Email</label>
+          <div class="col-md-7 col-sm-10 text-left">
+            <input type="text" id="emailText"></input>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="phone" class="col-md-5 col-sm-2 col-form-label text-right">Phone</label>
+          <div class="col-md-7 col-sm-10 text-left">
+            <input type="text" id="phoneText"></input>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="card" class="col-md-5 col-sm-2 col-form-label text-right">Card Number</label>
+          <div class="col-md-7 col-sm-10 text-left">
+            <input type="text" id="cardText"></input>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="exp" class="col-md-5 col-sm-2 col-form-label text-right">Exp Date</label>
+          <select class="col-md-1 col-sm-5 text-left" id="expMM">
+            <option value="default">MM</option>
+            <option value="1">01</option>
+            <option value="2">02</option>
+            <option value="3">03</option>
+            <option value="4">04</option>
+            <option value="5">05</option>
+            <option value="6">06</option>
+            <option value="7">07</option>
+            <option value="8">08</option>
+            <option value="9">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+          </select>
+          <select class="col-md-1 col-sm-5 text-left" id="expYY">
+            <option value="default">YY</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+          </select>
+        </div>
+        <div class="form-group row">
+          <label for="cvv" class="col-md-5 col-sm-2 col-form-label text-right">Security Code/CVV</label>
+          <div class="col-md-7 col-sm-10 text-left">
+            <input type="text" id="cvvText"></input>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for"address" class="col-md-5 col-sm-2 col-form0label text-right">Address</label>
+          <div class="col-md-7 col-sm-10 text-left">
+            <input type="text" id="addressSt" placeholder="Street Address">
+            <input type="text" id="addressState" placeholder="State">
+            <input type="text" id="zip" placeholder="Zipcode">
+
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="qty" class="col-md-5 text-right">Select Donatation or Quantity</label>
+          <select class="col-md-3 text-left" name="">
+            <option value="0">--select--</option>
+            <option value="donate">Donation</option>
+            <option value="1">01</option>
+            <option value="2">02</option>
+            <option value="3">03</option>
+            <option value="4">04</option>
+            <option value="5">05</option>
+            <option value="6">06</option>
+            <option value="7">07</option>
+            <option value="8">08</option>
+            <option value="9">09</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <div class="form-group row">
+          <label for="notes" class="col-md-5 col-sm-2 col-form-label text-right">Notes</label>
+          <div class="col-md-4 col-sm-2 text-left">
+            <input type="text" id="notesText"></input>
+          </div>
+        </div>
+      </form>
+      </div>
+      <div class="row center-block text-center">
+        <div class="col-md-12">
+          <button type="submit" id="submit">Submit</button>
+        </div>
+      </div>
+  </div> <!-- main container fluid -->
+</main>
+<footer>
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 center-block">
+      <section id="nav">
+        <nav class="nav flex-column" "flex-sm-column">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="books.html">Books</a>
+            <a class="nav-link" href="coloringpage.html">Coloring Pages</a>
+            <a class="nav-link" href="links.html">Links</a>
+            <a class="nav-link" href="about.html">About Us</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="order.html">Donations</a>
+        </nav>
+      </section>
+    </div>
+    <div class="col-md-2" id="order">
+      <button id="orderbtn" type="button" class="btn btn-light" onclick="location.href='order.html';">Order Now!</button>
+    </div>
+    <div class="col-md-4">
+      <p id="social">Check us out on social media!
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-youtube"></a>
+      </p>
+    </div>
+  </div>
+</div>
+</footer>
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

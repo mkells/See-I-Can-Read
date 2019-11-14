@@ -1,0 +1,31 @@
+/****************************** Main Body **********************************/
+#cover {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+}
+
+#top {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5%;
+  border: 2px solid black;
+}
+
+#bottom {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+}
+
+#info {
+  margin-top: 3%;
+  font-size: 16px;
+}
+
+#testHeader {
+  font-size: 24px;
+}
+#testimonial {
+  font-size: 16px;
+}
